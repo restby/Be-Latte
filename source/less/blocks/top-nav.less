@@ -1,0 +1,19 @@
+.top-nav {
+  margin: 0 auto;
+  background-color: rgba(@color-black, 0.35);
+}
+
+.top-nav__list {
+  .list-reset();
+  .display-flex-start();
+  justify-content: center;
+
+  li {
+    a {
+      .link-reset();
+      font-size: 16px;
+      line-height: 28px;
+      color: @color-white;
+    }
+  }
+}
