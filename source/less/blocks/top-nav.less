@@ -1,14 +1,23 @@
 .top-nav {
-  margin: 0 auto;
+  width: 100%;
   background-color: rgba(@color-black, 0.35);
+  position: relative;
+  margin-bottom: 200px;
 }
 
 .top-nav__list {
   .list-reset();
   .display-flex-start();
   justify-content: center;
+  padding-top: 32px;
 
   li {
+    margin-right: 18px;
+    margin-bottom: 31px;
+
+    &:nth-child(2) {
+      margin-right: 230px;
+    }
     a {
       .link-reset();
       font-size: 16px;
